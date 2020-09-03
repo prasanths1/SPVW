@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f50893ed96e6f02c9846b21",
+  "workflowName" : "If unique",
+  "workflowVersionName" : "master",
+  "source" : null,
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1599113534550,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
