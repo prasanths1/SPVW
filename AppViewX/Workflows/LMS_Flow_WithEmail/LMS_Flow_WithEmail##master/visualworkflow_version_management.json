@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f8552ad5326d228a8e0e3ba",
+  "workflowName" : "LMS_Flow_WithEmail",
+  "workflowVersionName" : "master",
+  "source" : null,
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1602572973067,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}

@@ -1,0 +1,271 @@
+[ {
+  "workflowName" : "LMS_Flow_WithEmail",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DJN9FN5F",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "LMS_Flow_WithEmail",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Type of leave",
+    "key" : "leaveType",
+    "value" : "leaveType",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : "createform_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BGIH1VlL",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Reason for leave",
+    "key" : "leaveReason",
+    "value" : "leaveReason",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : "createform_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BGIH1VlL",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "From Date",
+    "key" : "fromDate",
+    "value" : "fromDate",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : "createform_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BGIH1VlL",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Requester name",
+    "key" : "leaveRequester",
+    "value" : "leaveRequester",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : "createform_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BGIH1VlL",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "To Date",
+    "key" : "toDate",
+    "value" : "toDate",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : "createform_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BGIH1VlL",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BGIH1VlL",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
