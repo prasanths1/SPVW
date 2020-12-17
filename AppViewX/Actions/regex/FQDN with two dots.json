@@ -1,0 +1,1 @@
+{"name":"FQDN with two dots","notification":"Enter a valid FQDN (e.g.: www.testappviewx.com)","regex":"^[(a-zA-Z0-9)]+[.]{1}[(a-zA-Z0-9)]+[.]{1}[(a-zA-Z0-9)]+$","_id":"FQDN with two dots"}
