@@ -1,0 +1,1 @@
+{"name":"Numbers","notification":"Enter a valid numeric value (e.g.:0 - 9)","regex":"^[0-9]*$","_id":"Numbers"}
