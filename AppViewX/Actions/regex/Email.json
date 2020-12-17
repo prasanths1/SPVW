@@ -1,0 +1,1 @@
+{"name":"Email","notification":"Please enter a valid email address (e.g.: abc@appviewx.com)","regex":"^([a-z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,6})$","_id":"Email"}
