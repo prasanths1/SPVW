@@ -21,8 +21,7 @@
         "parentSubflowId" : "",
         "taskType" : "start",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ]
     },
     "flowPathID" : null,
@@ -84,8 +83,7 @@
         "parentSubflowId" : "",
         "taskType" : "start",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ],
       "success" : [ {
         "taskId" : "avxapi_1",
@@ -94,8 +92,7 @@
         "parentSubflowId" : "",
         "taskType" : "avxapi",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ]
     },
     "flowPathID" : null,
@@ -188,8 +185,7 @@
         "parentSubflowId" : "",
         "taskType" : "start",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ],
       "success" : [ {
         "taskId" : "workflow_stop_1",
@@ -198,8 +194,7 @@
         "parentSubflowId" : "",
         "taskType" : "stop",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ]
     },
     "flowPathID" : null,
@@ -275,8 +270,7 @@
         "parentSubflowId" : "",
         "taskType" : "start",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ],
       "success" : [ {
         "taskId" : "email_1",
@@ -285,8 +279,7 @@
         "parentSubflowId" : "",
         "taskType" : "email",
         "flowName" : null,
-        "linkType" : null,
-        "backwardLink" : false
+        "linkType" : null
       } ]
     },
     "flowPathID" : null,
@@ -367,13 +360,218 @@
     "payload" : { },
     "header" : { },
     "rest_type" : null
+  }, {
+    "uniqueId" : "jkDppSeM",
+    "directoryUniqueId" : "Uz8T1SM3",
+    "source" : "DEFAULT",
+    "tags" : [ "User interface", "Form" ],
+    "userName" : "DEFAULT",
+    "objectType" : "TaskDetails",
+    "sourceControlSettings" : null,
+    "description" : "",
+    "historyReferences" : [ "60544e6d1ed42d367357a444", "60544e71249a186b8a30a98a", "60544e8a955b816060fcaba2", "60544ebee99adc592c70e1b6", "60544ee01ed42d367357a448", "60544e8de99adc592c70e1b3" ],
+    "usedHistory" : "86f7d3e35c89fb70e1b8f79a9c1e4c7a",
+    "sampleInput" : null,
+    "sampleOutput" : null,
+    "contentTab" : "",
+    "successiveTasks" : { },
+    "flowPathID" : null,
+    "ignoredForStatusComputation" : false,
+    "flowName" : null,
+    "subFlowID" : null,
+    "globalData" : null,
+    "input" : [ ],
+    "notificationMessage" : null,
+    "ancestor" : null,
+    "metaData" : {
+      "taskHeader" : "Form",
+      "hide" : false,
+      "lock" : false,
+      "successState" : 1,
+      "failoverState" : 2,
+      "taskScope" : null,
+      "hideFromStageView" : false,
+      "mode" : "Developer",
+      "nature" : "normal",
+      "lowCodeTask" : false
+    },
+    "parentSubFlowID" : null,
+    "helpContent" : "<p>Form task allows for building of a dynamic self-service form or catalog in order to capture user inputs as part of the workflow execution process.</p>",
+    "dynamicAuth" : null,
+    "regexList" : null,
+    "regexOperation" : null,
+    "regexPattern" : null,
+    "accessMode" : null,
+    "proceedProcess" : null,
+    "breakdownProcess" : null,
+    "cancelProcess" : null,
+    "saveDraftProcess" : null,
+    "closeProcess" : null,
+    "enableSaveDraft" : false,
+    "enableCancel" : true,
+    "enableClose" : false,
+    "enableAutoApprove" : null,
+    "enableBreakDown" : false,
+    "availableGlobalData" : null,
+    "_id" : null,
+    "task_id" : "createform_1",
+    "task_name" : "Form_1",
+    "task_type" : "form",
+    "task_category" : "form",
+    "component_type" : "form",
+    "setNullProperties" : true,
+    "folderName" : null,
+    "sub_group" : "form",
+    "group_name" : "User interface",
+    "viewable_type" : "default",
+    "aclIdentifiers" : null,
+    "template" : {
+      "name" : "Form_1",
+      "description" : null,
+      "aclIdentifiers" : null,
+      "fields" : [ {
+        "labelName" : "rrr",
+        "elementType" : "Text box",
+        "values" : "",
+        "fieldId" : "cc",
+        "fieldScript" : "",
+        "aclFilter" : "None",
+        "dependsOn" : "",
+        "dataValidation" : "",
+        "parent" : "",
+        "help" : "",
+        "mandatory" : true,
+        "predefinedRegex" : false,
+        "notification" : null,
+        "accessType" : "RW",
+        "view" : "advanced",
+        "permission" : "submit",
+        "group" : "",
+        "autoTrigger" : false,
+        "global" : false,
+        "fileName" : "",
+        "downloadType" : "",
+        "defaultValues" : null
+      } ],
+      "fieldScripts" : [ {
+        "name" : null,
+        "description" : null,
+        "version" : null,
+        "type" : "script",
+        "fieldIds" : [ ],
+        "responseMapping" : null,
+        "historyReferences" : [ ],
+        "usedHistory" : null,
+        "sessionId" : null,
+        "sourceControlSettings" : null,
+        "scriptName" : "Discard request",
+        "scriptData" : "",
+        "_id" : null,
+        "_keywords" : null
+      }, {
+        "name" : null,
+        "description" : null,
+        "version" : null,
+        "type" : "script",
+        "fieldIds" : [ ],
+        "responseMapping" : null,
+        "historyReferences" : [ ],
+        "usedHistory" : null,
+        "sessionId" : null,
+        "sourceControlSettings" : null,
+        "scriptName" : "Submit request",
+        "scriptData" : "",
+        "_id" : null,
+        "_keywords" : null
+      }, {
+        "name" : null,
+        "description" : null,
+        "version" : null,
+        "type" : "script",
+        "fieldIds" : [ ],
+        "responseMapping" : {
+          "response" : {
+            "" : ""
+          }
+        },
+        "historyReferences" : [ ],
+        "usedHistory" : null,
+        "sessionId" : null,
+        "sourceControlSettings" : null,
+        "scriptName" : "Cancel request",
+        "scriptData" : "",
+        "_id" : null,
+        "_keywords" : null
+      } ],
+      "accessType" : null,
+      "parentTemplate" : null,
+      "hiddenTemplate" : false,
+      "groupData" : {
+        "treeData" : [ ],
+        "listData" : [ ]
+      },
+      "workflow_template_name" : null,
+      "_keywords" : null
+    },
+    "configuration" : {
+      "aclIdentifiers" : [ "super access" ],
+      "permission" : [ "super access:submit" ],
+      "skipFlow" : false,
+      "emailConfiguration" : {
+        "emailNotificationEnabled" : false,
+        "createdNotificationConfig" : {
+          "notifyUser" : false,
+          "notifyTargetGroup" : false,
+          "emailsList" : [ ]
+        },
+        "reviewedNotificationConfig" : {
+          "notifyUser" : false,
+          "notifyTargetGroup" : false,
+          "emailsList" : [ ]
+        },
+        "submittedNotificationConfig" : {
+          "notifyUser" : false,
+          "notifyTargetGroup" : false,
+          "emailsList" : [ ]
+        },
+        "rejectedNotificationConfig" : {
+          "notifyUser" : false,
+          "notifyTargetGroup" : false,
+          "emailsList" : [ ]
+        }
+      },
+      "multipleScenarioEnabled" : false,
+      "maxScenarioCount" : 0,
+      "enableSaveDraft" : true,
+      "enableCancel" : true,
+      "enableClose" : false,
+      "enableBreakDown" : false,
+      "labels" : {
+        "cancel" : "Cancel",
+        "submit" : "Submit",
+        "reject" : "Back",
+        "saveDraft" : "Save Draft",
+        "close" : "Exit"
+      },
+      "enableAutoApprove" : false,
+      "failoverState" : 2,
+      "successState" : 1,
+      "dynamicAuth" : null,
+      "regexList" : null,
+      "regexOperation" : null,
+      "regexPattern" : null,
+      "accessMode" : null
+    },
+    "data" : null,
+    "api_list" : null
   } ],
   "subFlowID" : "f5lFXQec",
   "taskGlobalData" : {
     "workflow_stop_1" : [ ],
     "email_1" : [ ],
     "avxapi_1" : [ ],
-    "rest_1" : [ ]
+    "rest_1" : [ ],
+    "createform_1" : [ ]
   },
   "type" : null,
   "level" : 0,
