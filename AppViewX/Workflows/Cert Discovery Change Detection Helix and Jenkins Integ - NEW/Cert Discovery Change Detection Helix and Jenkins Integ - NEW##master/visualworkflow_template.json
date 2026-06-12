@@ -534,7 +534,13 @@
   },
   "defaultGlobalData" : null,
   "lastUpdatedTime" : 1781253638447,
-  "sourceControlSettings" : null,
+  "sourceControlSettings" : {
+    "committed" : true,
+    "pendingForPushAction" : true,
+    "pushActionCompleted" : false,
+    "enabledForRemoteRepository" : true,
+    "connectedRepo" : null
+  },
   "group" : "custom",
   "saasEnabled" : false,
   "_id" : "6a2bc60689aa5b44675590d8",
