@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "6a2bab41ce45412b531c35da",
+  "workflowName" : "Demo TIAA - Application Decommission from F5 and Infoblox",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "abirami.priya@appviewx.com",
+  "lastModifiedTime" : 1781246785994,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
