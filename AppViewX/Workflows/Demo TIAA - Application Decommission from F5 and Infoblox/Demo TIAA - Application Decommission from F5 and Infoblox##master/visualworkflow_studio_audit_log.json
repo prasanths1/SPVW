@@ -1,0 +1,17 @@
+[ {
+  "time" : 1781246786011,
+  "message" : "Workflow : 'Demo TIAA - Application Decommission from F5 and Infoblox' has been created. Cloned from 'Code TIAA - Application Decommission from F5 and Infoblox'",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "abirami.priya@appviewx.com",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "Demo TIAA - Application Decommission from F5 and Infoblox",
+  "workflowVersion" : "master",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+} ]
